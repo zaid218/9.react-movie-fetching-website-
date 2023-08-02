@@ -1,21 +1,25 @@
+/* app.css */
 section {
   margin: 1rem auto;
   width: 90%;
   max-width: 40rem;
   text-align: center;
-  background-color: white;
-  padding: 2rem;
+  background: radial-gradient(#303b37, #1a1f1d); /* Light blueish-gray */
   border-radius: 12px;
+  padding: 2rem;
 }
 
 button {
   font: inherit;
   cursor: pointer;
-  background: #230052;
-  border: 1px solid #230052;
-  color: white;
+  background: radial-gradient(#1b5346, #113c32);
+  border: 1px solid #113c32;
+  color: white; /* White text */
   padding: 0.75rem 2rem;
+  font-size: 1.8rem; /* Update font size to 1.8rem */
+  font-weight: bold; /* Make the font bold */
   border-radius: 20px;
+  transition: background-color 0.3s, border-color 0.3s; /* Add transition for smooth hover effect */
 }
 
 button:focus {
@@ -24,6 +28,6 @@ button:focus {
 
 button:hover,
 button:active {
-  background-color: #460897;
-  border-color: #460897;
+  background: radial-gradient(#1b403a, #092821); /* Updated background color on hover */
+  border-color: #1b403a; /* Updated border color on hover */
 }

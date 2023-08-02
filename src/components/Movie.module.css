@@ -1,20 +1,23 @@
+/* Movie.module.css */
 .movie {
   margin: 1rem;
   padding: 1rem;
-  background-color: #230052;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  background: linear-gradient(180deg, #1b5346, #113c32); /* Light grayish-blue background */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); /* Softer shadow */
   border-radius: 12px;
   text-align: center;
-  color: white;
+  color: #c2e9e0; /* Dark gray text */
 }
 
 .movie h2 {
-  font-size: 2rem;
-  color: #f7e702;
+  font-size: 2.2rem; /* Update font size to 2.2rem */
+  font-weight: bold; /* Make the font bold */
+  color: #c2e9e0; /* Light blue heading */
 }
 
 .movie h3 {
-  color: #eccf77;
+  color: #91e1d0; /* Soft teal subheading */
   margin: 0;
-  font-size: 1rem;
+  font-size: 1.2rem; /* Update font size to 1.2rem */
+  font-weight: normal; /* Set font weight to normal */
 }
