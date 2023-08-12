@@ -1,23 +1,20 @@
-/* Movie.module.css */
 .movie {
   margin: 1rem;
   padding: 1rem;
-  background: linear-gradient(180deg, #1b5346, #113c32); /* Light grayish-blue background */
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); /* Softer shadow */
+  background-color: #230052;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   border-radius: 12px;
   text-align: center;
-  color: #c2e9e0; /* Dark gray text */
+  color: white;
 }
 
 .movie h2 {
-  font-size: 2.2rem; /* Update font size to 2.2rem */
-  font-weight: bold; /* Make the font bold */
-  color: #c2e9e0; /* Light blue heading */
+  font-size: 2rem;
+  color: #f7e702;
 }
 
 .movie h3 {
-  color: #91e1d0; /* Soft teal subheading */
+  color: #eccf77;
   margin: 0;
-  font-size: 1.2rem; /* Update font size to 1.2rem */
-  font-weight: normal; /* Set font weight to normal */
+  font-size: 1rem;
 }
